@@ -65,7 +65,7 @@ echo "Start the server in background mode..."
 adb -a -P 5037 server nodaemon &
 echo "Sleep 10 seconds for the adb server to start"
 sleep 10
-DEVICES="192.168.50.206"
+DEVICES="10.11.12.206"
 echo "Connecting to devices."
 for device in $DEVICES; do
 echo "Connect to device: $device"

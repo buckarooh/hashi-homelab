@@ -8,7 +8,7 @@ capability {
   attachment_mode = "file-system"
 }
 context {
-  server = "192.168.50.208"
+  server = "10.11.12.208"
   share = "/mnt/pool0/share/example"
   mountPermissions = "0"  
 }
